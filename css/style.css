@@ -1,0 +1,33 @@
+.eventPage{
+    display: flex;
+    flex-direction: row;
+    .eventImage,.eventDetails{
+        padding: 50px;
+        width: 60%;
+    }
+    border: solid rgb(0, 0, 0);
+    margin: 10% 5% 5% 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.event{
+    border: solid black;
+    margin: 0% 15%;
+
+}
+
+
+.imageDiv {
+    
+    border: solid #0c0c0c; /* Customize the border color and width */
+    padding: 10px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
